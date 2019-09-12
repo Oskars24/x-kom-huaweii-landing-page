@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+a {
+color:#000000;
+text-decoration: none;
+}
+a:hover {
+color:#4634a0;
+}
+
+.all {
+margin: 0 auto;
+border: 1px solid rgba(0, 0, 0, 0.20);
+border-radius: 30px;
+max-width: 1140px;
+background-color: #ffffff;
+overflow: hidden;
+box-shadow: 0px 0px 25px rgba(84, 84, 84, 0.2) inset;
+}
+
+.top {
+padding: 0;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+width: 100%;
+overflow: hidden;
+}
+
+.bar {
+padding-top: 20px;
+text-align: center;
+width: 100%;
+overflow: hidden;
+}
+
+.st {
+float: left;
+font-size: 15px;
+font-family: 'Open Sans', sans-serif;
+}
+
+.res100 {width: 100%;}
+.res50 {width: 50%;}
+.res33 {width: 33.333%;}
+
+@media screen and (min-width: 40em){ /* 480px */
+	.res100_l{width: 100%;}
+	.res50_l{width: 50%;}
+	.res33_l{width: 33.333%;}
+}
+
+.content {
+float: left;
+padding-top: 20px;
+width: 100%;
+}
+
+.co1 {
+text-align: center;
+float: left;
+}
+
+.co1 ul {
+text-align: left;
+font-weight: bold;
+font-size: 35px;
+font-family: 'Open Sans', sans-serif;
+list-style-type: none;
+padding: 20px;
+margin-left: 10%;
+margin-bottom: 10%;
+color: #4634a0;
+}
+
+.co1 li {
+font-weight: normal;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+text-align: left;
+list-style-type: disc;
+padding: 1%;
+color: black;
+}
+
+
+.look {
+text-align: center;
+font-size: 35px;
+font-family: 'Open Sans', sans-serif;
+border: 2px solid rgba(70, 52, 160, 0.20);
+border-radius: 30px;
+background-color: rgba(255, 255, 255, 0.75);
+margin: 0 auto;
+padding: 3.5%;
+padding-left: 16%;
+padding-right: 16%;
+}
+
+.co2{
+text-align: center;
+float: left;
+}
+
+.co2 img {
+width: 100%;
+padding-top: 10%;
+}
+
+.bottom {
+padding-top: 5%;
+padding-bottom: 2%;
+float: left;
+width: 100%;
+text-align: center;
+font-size: 15px;
+font-family: Arial;
+}
+
+.linia {
+width: 95%;
+border-width: 0px;
+background: rgba(0, 0, 0, 0.20);
+height: 1px;
+}
